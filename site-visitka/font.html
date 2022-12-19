@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+   
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="index.html" id="logo"> <span class="pink"> Сайт</span> <i>визитка</i> </a>
+          </header>
+          <nav id="mainnav">
+            <ul>
+                <li class="active"> <a href="uslugi.html" class="qw">услуги</a></li>
+                <li class="active"><a href="comand.html"  class="qw">о нас</a></li>
+                <li class="active"><a href="klient.html"  class="qw">клиенты</a></li>
+                <li class="active"><a href="dazai.html"  class="qw">контакты</a></li>
+            </ul>
+            </nav>
+        <main>
+            <form action="" id="contact-form">
+                <div class="form_item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic">
+                        <option value="1"> Заказать услугу</option>
+                        <option value="2"> Оставить отзыв/замечание</option>
+                        <option value="3"> Предложить сотрудничество</option>
+                        <option value="4"> Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name">Имя</label><br>
+                    <input name="name" id="name" type="text" placeholder="капибары вперед" required>
+                </div>
+                <div class="form_item">
+                    <label for="email">E-mail</label><br>
+                    <input name="email" id="email" type="email" placeholder="пиши почту" required>
+                </div>
+                <div class="form_item">
+                    <label for="tel">Телефон</label><br>
+                    <input name="tel" id="tel" type="tel" placeholder="пиши телефон " required>
+                </div>
+                <div class="form_item">
+                    <label for="date">Дата капибары </label><br>
+                    <input name="date" id="date" type="date" required>
+                </div>
+                <div class="form_item">
+                    <label for="file">Обязательная фотка капибары</label><br>
+                    <input name="file" id="file" type="file" required>
+                </div>
+                <div class="form_item">
+                    <label for="text">Текст сообщения</label><br>
+                    <textarea rows="10" cols="25" name="text" type="text" placeholder="пиши текст " required></textarea>
+                </div>
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+            </form>
+            
+        </main>
+    </div>
+    <footer>
+        <p class="footer_block"><a href="font.html">Написать нам &#9650;</a></p>
+        <p class="footer_block">&copy;Новая компания</p>
+        <div class="footer__icons"> 
+            <a href="https://www.instagram.com/" target="_blank"> <img src="img/instagram.png" alt="" class="footer_img"> </a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" class="footer_img"> </a>
+                <a href="https://vk.com/genshinimpact" target="_blank">   <img src="img/vk-social-logotype.png" alt="" class="footer_img"> </a>
+        </div>
+    </footer>
+</body>
+</html>
